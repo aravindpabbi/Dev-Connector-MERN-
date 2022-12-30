@@ -1,0 +1,35 @@
+{
+  "name": "dev-connector-mern-",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aravindpabbisetty/Dev-Connector-MERN-.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aravindpabbisetty/Dev-Connector-MERN-/issues"
+  },
+  "homepage": "https://github.com/aravindpabbisetty/Dev-Connector-MERN-#readme",
+  "dependencies": {
+    "axios": "^1.2.2",
+    "bcryptjs": "^2.4.3",
+    "config": "^3.3.8",
+    "express": "^4.18.2",
+    "express-validator": "^6.14.2",
+    "gravatar": "^1.8.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.8.2"
+  },
+  "devDependencies": {
+    "concurrently": "^7.6.0",
+    "nodemon": "^2.0.20"
+  }
+}
